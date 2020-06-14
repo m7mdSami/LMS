@@ -1,0 +1,53 @@
+[dir="ltr"] .input-color,
+[dir="ltr"] .bg-gradient-primary,
+[dir="ltr"] .bg-footer,
+[dir="ltr"] .dropdown-item.active:after, 
+[dir="ltr"] .dropdown-item:active:after,
+[dir="ltr"] .courses-modal .menu .active:after,
+[dir="ltr"] .btn-accent:not(:disabled):not(.disabled).active, 
+[dir="ltr"] .btn-accent:not(:disabled):not(.disabled):active, 
+[dir="ltr"] .show > .btn-accent.dropdown-toggle ,
+[dir="ltr"] .page-nav .page-nav__menu a.active:before,
+[dir="ltr"] .page-item.active .page-link,
+[dir="ltr"] .player__play, 
+[dir="ltr"] .btn-accent {
+    background-color: var(--blue) !important;
+}
+[dir="ltr"] .border-left-accent,
+[dir="ltr"] .btn-accent:not(:disabled):not(.disabled).active, 
+[dir="ltr"] .btn-accent:not(:disabled):not(.disabled):active, 
+[dir="ltr"] .show > .btn-accent.dropdown-toggle,
+[dir="ltr"] .page-item.active .page-link,
+[dir="ltr"] .btn-accent {
+    border-color: var(--blue) !important;
+}
+[dir="ltr"] .text-accent,
+[dir="ltr"] .btn-outline-white:hover {
+    color: var(--blue) !important;
+}
+[dir=ltr] .preloader{
+    background: var(--blue) !important;
+}
+.card-fixed{
+    z-index: 99;
+    top: 100px;
+}
+.video-list{
+    overflow-y: auto;
+}
+.video-list,
+.video-player{
+    height: 500px;
+}
+._player__play{
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 100% !important;
+}
+._player__play .material-icons{
+    font-size: 1rem !important;
+}
+.ps-container.sidebar .card.mb-1:first-of-type,
+.ps-container.sidebar .card.mb-1:nth-of-type(2) {
+    display: none;
+}
