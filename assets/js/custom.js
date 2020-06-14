@@ -42,7 +42,7 @@ let changeColor = () => {
                                     <div role="group" aria-labelledby="__BVID__33__BV_label_" class="">
                                         <div id="group-mainNavbar-0" role="radiogroup" tabindex="-1" class="">
                                             <div class="custom-control custom-radio custom-control-inline">
-                                                <input value="${checkColor['--blue']}" class="input-color cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker" type="color" data-id="blue" name="Color">
+                                                <input value="${checkColor ? checkColor['--blue'] : '#007bff'}" class="input-color cursor-pointer h-10 outline-none rounded-full w-10 input-color-picker" type="color" data-id="blue" name="Color">
                                             </div>
                                         </div>
                                     </div>
