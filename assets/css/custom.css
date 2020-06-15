@@ -60,3 +60,9 @@
 [dir="ltr"] .mdk-box--bg-gradient-primary .mdk-box__bg-front:after{
     background-image: none;
 }
+[dir="ltr"] .navbar-nav .nav-link{
+    font-size: 0.96rem;
+}
+[dir="ltr"] .navbar-expand-sm .navbar-nav .nav-item + .nav-item{
+    margin-left: 0;
+}
