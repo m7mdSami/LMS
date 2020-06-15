@@ -31,6 +31,10 @@
 [dir=ltr] .preloader{
     background: var(--blue) !important;
 }
+[dir="ltr"] .bg-dark,
+.input-color-dark{
+    background-color: var(--dark) !important;
+}
 .card-fixed{
     z-index: 99;
     top: 100px;
@@ -51,7 +55,8 @@
     font-size: 1rem !important;
 }
 .ps-container.sidebar .card.mb-1:first-of-type,
-.ps-container.sidebar .card.mb-1:nth-of-type(2) {
+.ps-container.sidebar .card.mb-1:nth-of-type(2),
+.ps-container.sidebar .card.mb-1:nth-of-type(3) {
     display: none;
 }
 .card_course-list .list-group-item {
