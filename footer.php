@@ -993,6 +993,16 @@
         </div>
     </div>
 
+    <!-- Modal Watch trailer In Course Page  -->
+    <div class="modal fade bd-example-modal-lg" id="Watch-trailer" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                <iframe class="w-100 p-0" height="500" src="https://www.youtube.com/embed/BPopaJsNWd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
     <script src="assets/vendor/jquery.min.js"></script>
 

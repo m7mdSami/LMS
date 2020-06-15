@@ -1,24 +1,10 @@
 <?php include 'header.php';?>
 
+<?php include 'top-nav.php';?>
+
 <!-- Header Layout Content -->
 <div class="mdk-header-layout__content page-content pb-0">
 
-    <div class="navbar navbar-submenu navbar-light border-0 navbar-expand">
-        <div class="container">
-            <div class="media flex-nowrap">
-                <div class="media-left mr-16pt">
-                    <a href="course.html"><img src="assets/images/paths/angular_64x64.png" width="40" alt="Angular" class="rounded"></a>
-                </div>
-                <div class="media-body">
-                    <a href="course.html" class="card-title text-body mb-0">Angular Fundamentals</a>
-                    <p class="lh-1 d-flex align-items-center mb-0">
-                        <span class="text-50 small font-weight-bold mr-8pt">Elijah Murray</span>
-                        <span class="text-50 small">Software Engineer and Developer</span>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="bg-gradient-primary pb-lg-64pt py-32pt">
         <div class="container-fluid">
             <div class="row">
@@ -63,17 +49,28 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="d-flex flex-wrap align-items-end mb-16pt">
-                <h1 class="text-white flex m-0">Introduction to TypeScript</h1>
-                <p class="h1 text-white-50 font-weight-light m-0">50:13</p>
+    <div class="py-4 bg-white border-bottom-2">
+        <div class="container page__container">
+            <div class="d-flex align-items-center justify-content-between">
+                <h2>About this course</h2>
+                <a href="" class="btn btn-primary">screenshots</a>
             </div>
-
-            <p class="hero__lead measure-hero-lead text-white-50 mb-24pt">JavaScript is now used to power backends, create hybrid mobile applications, architect cloud solutions, design neural networks and even control robots. Enter TypeScript: a superset of JavaScript for scalable, secure, performant and feature-rich applications.</p>
-
-            <div class="d-flex flex-column flex-sm-row align-items-center justify-content-start">
-                <a href="lesson.html" class="btn btn-outline-white mb-16pt mb-sm-0 mr-sm-16pt">Watch trailer <i class="material-icons icon--right">play_circle_outline</i></a>
-                <a href="pricing.html" class="btn btn-white">Get started</a>
+            <hr/>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>About me</h4>
+                    <p>Fueled by my passion for understanding the nuances of cross-cultural advertising, I consider myself a forever student, eager to both build on my academic foundations in psychology and sociology and stay in tune with the latest digital marketing strategies through continued coursework.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page-separator-mask__content">
+            <div class="page-separator-mask__top"></div>
+            <div class="page-separator-mask__bottom"></div>
+            <div class="page-separator">
+                <a href="#" class="page-separator__text link-text">read more <i class="material-icons">keyboard_arrow_down</i></a>
             </div>
         </div>
     </div>

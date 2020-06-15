@@ -10,7 +10,9 @@
 [dir="ltr"] .page-nav .page-nav__menu a.active:before,
 [dir="ltr"] .page-item.active .page-link,
 [dir="ltr"] .player__play, 
-[dir="ltr"] .btn-accent {
+[dir="ltr"] .btn-accent,
+[dir="ltr"] .mdk-box--bg-gradient-primary .mdk-box__bg-front:after,
+[dir="ltr"] .btn-primary {
     background-color: var(--blue) !important;
 }
 [dir="ltr"] .border-left-accent,
@@ -18,7 +20,8 @@
 [dir="ltr"] .btn-accent:not(:disabled):not(.disabled):active, 
 [dir="ltr"] .show > .btn-accent.dropdown-toggle,
 [dir="ltr"] .page-item.active .page-link,
-[dir="ltr"] .btn-accent {
+[dir="ltr"] .btn-accent,
+[dir="ltr"] .btn-primary {
     border-color: var(--blue) !important;
 }
 [dir="ltr"] .text-accent,
@@ -50,4 +53,10 @@
 .ps-container.sidebar .card.mb-1:first-of-type,
 .ps-container.sidebar .card.mb-1:nth-of-type(2) {
     display: none;
+}
+.card_course-list .list-group-item {
+    overflow: hidden;
+}
+[dir="ltr"] .mdk-box--bg-gradient-primary .mdk-box__bg-front:after{
+    background-image: none;
 }

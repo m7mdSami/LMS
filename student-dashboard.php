@@ -1,5 +1,6 @@
 <?php include 'header.php';?>
 
+    <?php include 'top-nav.php';?>
 
     <?php include 'header-layout.php';?>
 
@@ -408,8 +409,6 @@
                                                         <small class="text-50 font-weight-bold mb-4pt">Elijah
                                                             Murray</small>
                                                     </div>
-                                                    <a href="student-take-course.html"
-                                                        class="ml-4pt material-icons text-accent card-course__icon-favorite">favorite</a>
                                                 </div>
                                                 <div class="d-flex">
                                                     <div class="rating flex">
@@ -721,83 +720,218 @@
 
             <h4>youe latest courses results</h4>
 
-            <div class="card">
-                <div class="card-header">
-                    <div class="row" style="white-space: nowrap;">
-                        <div class="col-lg d-flex justify-content-end">
-                            <a href="student-discussions-ask.html" class="btn btn-outline-secondary">looking for course</a>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="card card_course-list">
 
                 <div class="list-group list-group-flush">
 
                     <div class="list-group-item p-3">
-                        <div class="row align-items-center">
-                            <div class="col-md-3 mb-8pt mb-md-0">
-                                <div class="media">
-                                    <div class="media-left mr-16pt">
-                                        <a href="student-profile.html"><img src="assets/images/people/110/guy-1.jpg"
-                                                width="40" alt="avatar" class="rounded-circle"></a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <p class="text-muted m-0">2 days ago</p>
-                                        <p class="m-0"><a href="student-profile.html" class="text-body">Laza Bogdan</a>
+                        <div class="media media-stack-xs align-items-stretch">
+                            <div class="media-left media__thumbnail mr-0">
+                                <a href="course.html" class="js-image" data-position="center" data-height="auto" data-domfactory-upgraded="image" style="display: block; position: relative; overflow: hidden; background-image: url(&quot;http://localhost/_tutorio/dist/assets/images/paths/angular_430x168.png&quot;); background-size: cover; background-position: center center; height: 168px;">
+                                    
+                                    <span class="overlay__content">
+                                        <span class="overlay__action d-flex flex-column text-center">
+                                            <i class="material-icons">play_circle_outline</i>
+                                            <small>Preview course</small>
+                                        </span>
+                                    </span>
+                                </a>
+
+                            </div>
+                            <div class="media-body card-body py-0">
+                                <div class="d-flex">
+                                    <div class="flex">
+                                        <a class="card-title m-0" href="#">Learn Angular fundamentals</a>
+                                        <p class="d-flex flex-wrap lh-1 mb-16pt">
+                                            <small class="text-50 font-weight-bold mr-8pt">Elijah Murray</small>
+                                            <small class="text-50">Software Engineer and Developer</small>
                                         </p>
                                     </div>
                                 </div>
+
+                                <p class="text-50 course-list-item__excerpt m-0">This course will teach you the fundamentals o*f working with Angular 2. You *will learn everything you need to know to create complete applications including: components, services, directives, pipes, routing, HTTP, and even testing.</p>
+
+                                <div class="d-flex align-items-center">
+                                    <small class="text-50 mr-8pt">4.7</small>
+                                    <div class="rating flex">
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star_border</span></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="flex d-flex lh-1">
+                                        <small class="text-50 mr-8pt">6 hours</small>
+                                        <small class="text-50">13 lessons</small>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-secondary btn-sm">passed</button>
                             </div>
-                            <div class="col mb-8pt mb-md-0">
-                                <p class="mb-8pt"><a href="student-discussion.html" class="text-body"><strong>Using
-                                            Angular HttpClientModule instead of HttpModule</strong></a></p>
 
-
-                                <a href="student-discussion.html" class="chip chip-outline-secondary">Angular
-                                    fundamentals</a>
-
-
-                            </div>
-                            <div class="col-auto d-flex flex-column align-items-center justify-content-center">
-                                <h5 class="m-0">1</h5>
-                                <p class="lh-1 mb-0"><small class="text-70">answers</small></p>
-                            </div>
                         </div>
                     </div>
 
                     <div class="list-group-item p-3">
-                        <div class="row align-items-center">
-                            <div class="col-md-3 mb-8pt mb-md-0">
-                                <div class="media">
-                                    <div class="media-left mr-16pt">
-                                        <a href="student-profile.html"><img src="assets/images/people/110/guy-2.jpg"
-                                                width="40" alt="avatar" class="rounded-circle"></a>
-                                    </div>
-                                    <div class="media-body media-middle">
-                                        <p class="text-muted m-0">3 days ago</p>
-                                        <p class="m-0"><a href="student-profile.html" class="text-body">Adam Curtis</a>
+                    <div class="media media-stack-xs align-items-stretch">
+                            <div class="media-left media__thumbnail mr-0">
+                                <a href="course.html" class="js-image" data-position="center" data-height="auto" data-domfactory-upgraded="image" style="display: block; position: relative; overflow: hidden; background-image: url(&quot;http://localhost/_tutorio/dist/assets/images/paths/angular_430x168.png&quot;); background-size: cover; background-position: center center; height: 168px;">
+                                    
+                                    <span class="overlay__content">
+                                        <span class="overlay__action d-flex flex-column text-center">
+                                            <i class="material-icons">play_circle_outline</i>
+                                            <small>Preview course</small>
+                                        </span>
+                                    </span>
+                                </a>
+
+                                <span class="corner-ribbon corner-ribbon--default-left-top corner-ribbon--shadow bg-accent text-white">NEW</span>
+
+                            </div>
+                            <div class="media-body card-body py-0">
+                                <div class="d-flex">
+                                    <div class="flex">
+                                        <a class="card-title m-0" href="#">Learn Angular fundamentals</a>
+                                        <p class="d-flex flex-wrap lh-1 mb-16pt">
+                                            <small class="text-50 font-weight-bold mr-8pt">Elijah Murray</small>
+                                            <small class="text-50">Software Engineer and Developer</small>
                                         </p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col mb-8pt mb-md-0">
-                                <p class="mb-0"><a href="student-discussion.html" class="text-body"><strong>Why am I
-                                            getting an error when trying to install angular/http@2.4.2</strong></a></p>
 
+                                <p class="text-50 course-list-item__excerpt m-0">This course will teach you the fundamentals o*f working with Angular 2. You *will learn everything you need to know to create complete applications including: components, services, directives, pipes, routing, HTTP, and even testing.</p>
+
+                                <div class="d-flex align-items-center">
+                                    <small class="text-50 mr-8pt">4.7</small>
+                                    <div class="rating flex">
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star_border</span></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="flex d-flex lh-1">
+                                        <small class="text-50 mr-8pt">6 hours</small>
+                                        <small class="text-50">13 lessons</small>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-auto d-flex flex-column align-items-center justify-content-center">
-                                <h5 class="m-0">1</h5>
-                                <p class="lh-1 mb-0"><small class="text-70">answers</small></p>
-                            </div>
+
                         </div>
                     </div>
 
                 </div>
 
+            </div>
 
-                <div class="card-body text-center">
-                    <a href="student-discussions.html" class="text-underline">View more discussions</a>
+            <h4>youe courses</h4>
+
+            <div class="card card_course-list">
+
+                <div class="list-group list-group-flush">
+
+                    <div class="list-group-item p-3">
+                        <div class="media media-stack-xs align-items-stretch">
+                            <div class="media-left media__thumbnail mr-0">
+                                <a href="course.html" class="js-image" data-position="center" data-height="auto" data-domfactory-upgraded="image" style="display: block; position: relative; overflow: hidden; background-image: url(&quot;http://localhost/_tutorio/dist/assets/images/paths/angular_430x168.png&quot;); background-size: cover; background-position: center center; height: 168px;">
+                                    
+                                    <span class="overlay__content">
+                                        <span class="overlay__action d-flex flex-column text-center">
+                                            <i class="material-icons">play_circle_outline</i>
+                                            <small>Preview course</small>
+                                        </span>
+                                    </span>
+                                </a>
+
+                            </div>
+                            <div class="media-body card-body py-0">
+                                <div class="d-flex">
+                                    <div class="flex">
+                                        <a class="card-title m-0" href="#">Learn Angular fundamentals</a>
+                                        <p class="d-flex flex-wrap lh-1 mb-16pt">
+                                            <small class="text-50 font-weight-bold mr-8pt">Elijah Murray</small>
+                                            <small class="text-50">Software Engineer and Developer</small>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="text-50 course-list-item__excerpt m-0">This course will teach you the fundamentals o*f working with Angular 2. You *will learn everything you need to know to create complete applications including: components, services, directives, pipes, routing, HTTP, and even testing.</p>
+                                
+                                <div class="d-flex align-items-center">
+                                    <small class="text-50 mr-8pt">4.7</small>
+                                    <div class="rating flex">
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star_border</span></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="flex d-flex lh-1">
+                                        <small class="text-50 mr-8pt">6 hours</small>
+                                        <small class="text-50">13 lessons</small>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-secondary btn-sm">Fail</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="list-group-item p-3">
+                    <div class="media media-stack-xs align-items-stretch">
+                            <div class="media-left media__thumbnail mr-0">
+                                <a href="course.html" class="js-image" data-position="center" data-height="auto" data-domfactory-upgraded="image" style="display: block; position: relative; overflow: hidden; background-image: url(&quot;http://localhost/_tutorio/dist/assets/images/paths/angular_430x168.png&quot;); background-size: cover; background-position: center center; height: 168px;">
+                                    
+                                    <span class="overlay__content">
+                                        <span class="overlay__action d-flex flex-column text-center">
+                                            <i class="material-icons">play_circle_outline</i>
+                                            <small>Preview course</small>
+                                        </span>
+                                    </span>
+                                </a>
+
+                            </div>
+                            <div class="media-body card-body py-0">
+                                <div class="d-flex">
+                                    <div class="flex">
+                                        <a class="card-title m-0" href="#">Learn Angular fundamentals</a>
+                                        <p class="d-flex flex-wrap lh-1 mb-16pt">
+                                            <small class="text-50 font-weight-bold mr-8pt">Elijah Murray</small>
+                                            <small class="text-50">Software Engineer and Developer</small>
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <p class="text-50 course-list-item__excerpt m-0">This course will teach you the fundamentals o*f working with Angular 2. You *will learn everything you need to know to create complete applications including: components, services, directives, pipes, routing, HTTP, and even testing.</p>
+
+                                <div class="d-flex align-items-center">
+                                    <small class="text-50 mr-8pt">4.7</small>
+                                    <div class="rating flex">
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star</span></span>
+                                        <span class="rating__item"><span class="material-icons">star_border</span></span>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <div class="flex d-flex lh-1">
+                                        <small class="text-50 mr-8pt">6 hours</small>
+                                        <small class="text-50">13 lessons</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
+
             </div>
 
         </div>
