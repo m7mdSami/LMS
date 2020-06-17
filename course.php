@@ -8,7 +8,7 @@
                     <div class="hero py-64pt text-center text-sm-left">
                         <div class="container">
                             <div class="row">
-                                <div class="col-8">
+                                <div class="col-md-8">
                                     <h1 class="text-white">Angular Fundamentals</h1>
                                     <p class="lead text-white-50 measure-hero-lead">It’s not every day that one of the most important front-end libraries in web development gets a complete overhaul. Keep your skills relevant and up-to-date with this comprehensive introduction to Google’s popular community project.</p>
                                     <div class="d-flex flex-column flex-sm-row align-items-center justify-content-start">
@@ -16,7 +16,7 @@
                                         <a href="pricing.html" class="btn btn-white">Start your free trial</a>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-md-4 mt-3">
                                     <div class="position-sticky">
                                         <div class="card p-0 mb-0 justify-content-center border-left-lg">
                                             <div class="card-body flex-0 text-center">
@@ -124,8 +124,5 @@
             </div>
 
         </div>
-
-
-       
 
 <?php include 'footer.php';?>

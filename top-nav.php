@@ -1,6 +1,6 @@
 <div class="navbar navbar-expand-sm navbar-submenu navbar-light navbar-list p-0 m-0 align-items-center">
     <div class="container page__container">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-head">
 
             <li class="nav-item">
                 <a href="#" class="nav-link">Dashboard</a>
